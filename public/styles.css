@@ -1,0 +1,23 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:1.2rem;
+  background-color: #F1D00A;
+  
+}
+.header h1{
+  color:#fff;
+  cursor: pointer;
+  font-family: 'Macondo', cursive;
+  color:#fff;
+  font-size: 2.4rem;
+}
+h6{
+  font-size: 1.5rem;
+}
