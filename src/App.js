@@ -46,6 +46,8 @@ function App() {
   
   console.log(saveItems);
   
+  
+  //console.log(process.env.REACT_APP_OPENAI_KEY);
 
   //console.log(enginemark);
   
@@ -60,7 +62,7 @@ function App() {
   {
     console.log(inputData);
     const configuration = new Configuration({
-      apiKey: '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',
+      apiKey:process.env.REACT_APP_OPENAI_KEY ,
     });
 
     
